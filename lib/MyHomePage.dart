@@ -23,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const newPage()),
+              MaterialPageRoute(builder: (context) => const NewPage()),
             );
           }, child: const Text('Go to Second Screen'),
         ),
